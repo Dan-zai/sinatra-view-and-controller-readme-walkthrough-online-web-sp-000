@@ -13,9 +13,7 @@ class App < Sinatra::Base
   end
 
   get '/friends' do
-    <% @friends.each do |friend| %>
-    <h2><%= friend %></h2>
-    <% end %>
+    # Write your code here!
 
   end
 end
